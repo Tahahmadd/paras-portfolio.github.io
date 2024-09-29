@@ -247,253 +247,26 @@ p {
 
 /* Mobile Media Query */
 @media (max-width: 767px) {
+
+  .hero{
+    height: 50vh;
+  }
   h1 {
     font-size: 1rem;
   }
   h2 {
-    font-size: 1.3rem;
+    font-size: 0.8rem;
   }
   h3 {
     font-size: 0.7rem;
   }
   h4 {
-    font-size: 1.25rem;
+    font-size: 0.6rem;
   }
   h5 {
-    font-size: 1.125rem;
+    font-size: 0.5rem;
   }
   p {
     font-size: 0.5rem;
-  }
-}
-:root {
-  /* Background Color */
-  --bg-white: #fff;
-  --bg-primary: #f6f2f2;
-  --bg-secondary: #110f31;
-  /* Text Color */
-  --text-white: #fff;
-  --text-black: #000;
-
-  /* Font Family */
-  --primary-font: "Rubik", sans-serif;
-  --secondary-font: "Roboto";
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  -user-select: none;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-nav {
-  background-color: var(--bg-secondary);
-
-  .offcanvas-body {
-    background-color: var(--bg-secondary);
-  }
-
-  .navbar-brand,
-  .nav-link {
-    color: var(--text-white);
-    transition: 0.2s linear;
-
-    &:hover {
-      transform: translateY(-5px);
-    }
-    &:visited{
-        color: white;
-    }
-  }
-}
-
-.hero {
-  background-image: url(../images/mark-cruz-VW2oU66mwbc-unsplash.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: var(--text-white);
-
-  .hero-content {
-    h4 {
-      /* color: var(--bg-secondary); */
-      font-size: 2rem;
-    }
-    /* h1{
-            font-size: 3.5rem;
-        } */
-  }
-
-  button {
-    background-color: var(--bg-secondary);
-    border: 1px solid var(--bg-secondary);
-    outline: none;
-    color: var(--text-white);
-
-    &:hover {
-      background-color: transparent;
-      /* color: var(--text-black); */
-      border: 1px solid var(--bg-white);
-    }
-  }
-}
-
-.achievement {
-  background-color: var(--bg-secondary);
-  color: var(--text-white);
-  border-top: 1px solid var(--bg-white);
-  border-bottom: var(--bg-primary);
-  padding: 20px 0px;
-
-  .card {
-    background-color: transparent;
-  }
-}
-
-.about {
-  .about-content {
-    border-bottom: 2px solid black;
-  }
-  .about-three {
-    border-bottom: none;
-  }
-
-  .about-one,
-  .about-three {
-    background-color: var(--bg-primary);
-  }
-
-  .about-content {
-    img {
-      width: 100%;
-    }
-  }
-
-  .custom-text {
-    color: red;
-  }
-
-  button {
-    background-color: var(--bg-secondary);
-    color: var(--text-white);
-    padding: 5px 10px;
-    border-radius: 8px;
-    border: 1px solid var(--bg-secondary);
-    transition: 0.2s linear;
-
-    &:hover {
-      background-color: transparent;
-      color: var(--text-black);
-    }
-  }
-}
-
-.contact {
-  background-color: var(--bg-secondary);
-  color: var(--text-white);
-
-  button {
-    background-color: var(--bg-white);
-    border: 1px solid var(--bg-white);
-    outline: none;
-    color: var(--text-black);
-    border-radius: 8px;
-    padding: 5px 10px;
-
-    &:hover {
-      background-color: transparent;
-      color: var(--text-white);
-    }
-  }
-}
-
-.upwork {
-  background-color: var(--bg-primary);
-
-  .swiper-wrapper {
-    .swiper-slide {
-      border-radius: 8px;
-      h3 {
-        color: var(--bg-secondary);
-      }
-
-      img {
-        width: 25%;
-        border-radius: 50%;
-      }
-    }
-  }
-}
-
-.questions {
-  img {
-    width: 100%;
-  }
-
-  button {
-    background-color: var(--bg-secondary);
-    border: 1px solid var(--bg-secondary);
-    outline: none;
-    color: var(--text-white);
-    border-radius: 8px;
-    padding: 5px 10px;
-
-    &:hover {
-      background-color: transparent;
-      color: var(--text-black);
-    }
-  }
-}
-
-.hiring {
-  background-color: var(--bg-primary);
-  a {
-    text-decoration: none;
-    color: var(--text-black);
-  }
-}
-
-footer {
-  background-color: var(--bg-secondary);
-  color: var(--text-white);
-}
-
-p {
-  font-size: 1rem;
-}
-h1 {
-  font-size: 3.5rem;
-}
-h3 {
-  font-size: 2.5rem;
-}
-
-@media (max-width: 768px) {
-  p {
-    font-size: 0.9375rem;
-  }
-  h1 {
-    font-size: 3rem;
-  }
-  h3 {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 576px) {
-  p {
-    font-size: 0.875rem;
-  }
-  h1 {
-    font-size: 1.5rem;
-  }
-  h3 {
-    font-size: 1.75rem;
   }
 }
