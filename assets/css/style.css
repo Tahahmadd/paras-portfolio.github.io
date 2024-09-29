@@ -220,7 +220,7 @@ h5 {
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 /* Tablet Media Query */
@@ -250,6 +250,14 @@ p {
 
   .hero{
     height: 50vh;
+  }
+
+  .about,
+  .contact,
+  .questions{
+    button{
+      font-size: 0.5rem;
+    }
   }
   h1 {
     font-size: 1rem;
