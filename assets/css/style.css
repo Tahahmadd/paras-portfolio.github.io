@@ -196,11 +196,15 @@ nav {
 footer {
   background-color: var(--bg-secondary);
   color: var(--text-white);
+
+  .brand{
+    color: rgb(211, 12, 75);
+  }
 }
 
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 h2 {
@@ -208,15 +212,15 @@ h2 {
 }
 
 h3 {
-  font-size: 2.5rem;
-}
-
-h4 {
   font-size: 1.75rem;
 }
 
-h5 {
+h4 {
   font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.3rem;
 }
 
 p {
@@ -226,7 +230,7 @@ p {
 /* Tablet Media Query */
 @media (max-width: 1199px) {
   h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   h2 {
     font-size: 2.5rem;
@@ -235,10 +239,10 @@ p {
     font-size: 2rem;
   }
   h4 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   h5 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   p {
     font-size: 1rem;
@@ -267,19 +271,19 @@ p {
     }
   }
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   h2 {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   h3 {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
   h4 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   h5 {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
   }
   p {
     font-size: 0.7rem;
