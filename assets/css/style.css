@@ -26,23 +26,13 @@ body {
 
 nav {
   background-color: var(--bg-secondary);
-  height: 70px;
+  height: 100px;
 
   .offcanvas-body {
     background-color: var(--bg-secondary);
   }
 
-  .navbar-brand img {
-    height: 40px; /* Adjust the height as needed */
-    width: auto; /* Maintain the aspect ratio */
-  }
-
-  .navbar {
-    height: 60px; /* Fixed navbar height */
-    display: flex;
-    align-items: center; /* Vertically center the content */
-    padding: 0.5rem 1rem;
-  }
+  
 
   .navbar-brand,
   .nav-link {
@@ -263,15 +253,13 @@ p {
 
 /* Mobile Media Query */
 @media (max-width: 767px) {
-  .navbar-brand img {
-    height: 30px; /* Smaller height for mobile screens */
-  }
-  .navbar-toggler-icon{
-    height: 20px;
-  }
-  .navbar-toggler{
-    height: 20px;
-  }
+  /* .navbar-brand img {
+    height: 100%; /* Smaller height for mobile screens */
+  
+  /* .navbar {
+    height: 90px;
+    padding: 0px;
+  } */
 
   .hero {
     height: 50vh;
