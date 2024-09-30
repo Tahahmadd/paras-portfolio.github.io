@@ -52,7 +52,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--text-white);
-  height: 80vh;
+  height: 100vh;
 
   .hero-content {
     h4 {
@@ -204,7 +204,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h3 {
@@ -260,10 +260,10 @@ p {
     }
   }
   h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   h2 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   h3 {
     font-size: 0.7rem;
