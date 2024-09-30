@@ -266,6 +266,12 @@ p {
   .navbar-brand img {
     height: 30px; /* Smaller height for mobile screens */
   }
+  .navbar-toggler-icon{
+    height: 20px;
+  }
+  .navbar-toggler{
+    height: 20px;
+  }
 
   .hero {
     height: 50vh;
